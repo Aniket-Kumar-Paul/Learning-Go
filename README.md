@@ -16,3 +16,6 @@ Go (or Golang) is a statically typed, compiled programming language created at G
 ## Commands
 - go build <file_path> --> builds exe
 - go run <file_path> --> directly run code w/o creating exe
+
+## Resources
+- https://www.youtube.com/playlist?list=PLXQpH_kZIxTWUe-Ee-DZEX5gfeoo4tHV6
