@@ -13,6 +13,10 @@ Go (or Golang) is a statically typed, compiled programming language created at G
 - CLI tools
 - Networking tools (web servers, proxies)
 
+
+## Variables 
+- You can't have unused variables in Go
+
 ## Commands
 - go build <file_path> --> builds exe
 - go run <file_path> --> directly run code w/o creating exe
