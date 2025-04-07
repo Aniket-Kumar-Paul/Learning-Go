@@ -12,3 +12,7 @@ Go (or Golang) is a statically typed, compiled programming language created at G
 - Cloud infrastructure tools (like Docker, Kubernetes)
 - CLI tools
 - Networking tools (web servers, proxies)
+
+## Commands
+- go build <file_path> --> builds exe
+- go run <file_path> --> directly run code w/o creating exe
