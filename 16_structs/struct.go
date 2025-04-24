@@ -12,6 +12,12 @@ type order struct {
 	Amount   float64
 	Status   string
 	creaedAt time.Time
+	customer // struct embedding
+}
+
+type customer struct {
+	name	string
+	email	string
 }
 
 // constructor function (kind of)
@@ -52,4 +58,15 @@ func main() {
 		IsGood: true,
 	}
 	fmt.Println("Language name:", language)
+
+	myNewCustomer := customer{
+		name:  "John Doe",
+		email: "ani@gmail.com"}
+	myNewOrder := order{
+		ID:     3,
+		Amount: 150.00,
+		Status: "Pending",
+		customer: myNewCustomer,	
+	}
+	fmt.Println("Customer name:", myNewOrder.customer.name)
 }
